@@ -1,0 +1,96 @@
+h2 {
+    text-decoration: underline;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    border: solid 8px rgb(50, 121, 121);
+    padding: 10px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: darkorange;
+}
+
+a:hover {
+    color: red;
+    font-size: 22px;
+}
+
+a:active {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+body {
+    background-image: url("pexels-danieljschwarz-34403452.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h4 {
+    display: block;
+    color: rgb(236, 224, 224);
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(219, 219, 230);
+}
+
+.overflow {
+    border: solid black 4px;
+    width: 300px;
+    height: 150px;
+    overflow: auto;
+}
+
+.container {
+    color: aqua;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    background: peru;
+}
+
+
+.project {
+    background-color:blue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 0;
+    margin-top: 30px;
+}
+
+
+
+.project-card {
+    background-color: #bfc6f5;
+    color: black;
+    width: 180px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
